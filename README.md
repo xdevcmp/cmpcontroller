@@ -1,3 +1,3 @@
 # cmpcontroller
 
-Remote settings repository.
+Remote settings repository. V2
