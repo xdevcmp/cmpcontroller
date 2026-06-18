@@ -1,0 +1,3 @@
+# cmpcontroller
+
+Remote settings repository.
