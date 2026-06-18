@@ -1,0 +1,77 @@
+// effects.txt - selectivity for the 'nulleffects' toggle.
+// Blanks the whole visual of curated effect actors: empties SkinMesh, FixedMesh,
+// ParticleEffects and TrailsEffects blocks of the matched .ao files.
+// Syntax: '//' = comment;
+//   '@pattern' = SCOPE        (only act on paths containing one of these)
+//   '+pattern' = FORCE-REMOVE (empty even if a KEEP matches)
+//   '!pattern' = KEEP        (leave the effect)
+//   'pattern'  = REMOVE      (empty the visual blocks)
+// All matching is case-insensitive substring against the lowercase bundle path.
+// Precedence: SCOPE gate, then FORCE-REMOVE > KEEP > REMOVE.
+// NOTE: the original list used legacy .aoc filenames; GGG consolidated .aoc -> .ao, so a
+// trailing ".aoc" on any pattern is auto-stripped to match the current .ao paths.
+
+//======================================== SCOPE:
+// The reference only ever touches effect actors under metadata/effects/.
+@metadata/effects/
+
+//======================================== REMOVE:
+//Meshes to remove:
+//(.aoc file names)
+
+//===
+
+//Bladefall:
+rain_of_blade
+
+//They of Thul:
+breach/cold/blizzard
+
+//avian tornado:
+spells/monsters_effects/act9/sandspark/sandspark
+
+//lightning bolts from the sky:
+spells/herald
+
+//beyond portals:
+demon_portal
+
+//harbringer:
+effects/spells/monsters_effects/league_avatar
+
+//misc:
+extra_blood
+gore_explode
+goresplosion
+/shatter/
+
+league_settlers/mineralmarker/ao/explosive.aoc
+league_settlers/smoke_explode.aoc
+league_settlers/smoke_explode_arrive.aoc
+// STALE .aoc: the consolidated .ao (.../explosives/explosive_blast.ao) is KEPT by the
+// reference (verify over=1). Disabled to avoid a false removal.
+//league_expedition/mechanics/explosives/explosive_blast.aoc
+
+//===
+
+flame_wall
+spells/fire_fireball
+spells/fire_firestorm
+
+summon_skeletons/skeleton_arrow
+summon_skeletons/ignite_explosion
+summon_skeletons/skeleton_grenade
+
+spells/bow_electrocuting_rod
+spells/bow_lightning_rod
+
+overkill_burst
+lightningspear
+overchargedspear
+// huntress darktempest spear: the shared stormlance_detonateaudio sound-mesh. Two sibling
+// copies are caught by overchargedspear; this surgical fragment covers the darktempest one.
+storm_lance/audio/stormlance_detonateaudio
+
+freezeshatter_icechunks
+
+//===
