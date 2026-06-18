@@ -1,2 +1,7 @@
 # Local push helper — not part of the synced settings
 /__commit.AHK
+
+# FTP working/log files written by __commit.AHK (ftp_script.txt holds the password)
+/ftp_script.txt
+/ftp_output.txt
+/ftp_output_temp.txt
