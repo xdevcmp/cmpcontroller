@@ -1,6 +1,10 @@
 {
   "version": "1",
-  "updated": "2026-06-21T19:39:37Z",
+  "updated": "2026-06-22T21:11:04Z",
   "bundle": "remotesettings.ggpx",
-  "hash": "3a9d4e66b767a7319c1e6dd2a2c2fc617388e59b137efc6cbc9f6a39ddbba2fa"
+  "hash": "5546664d966ca3fe45a3265f4bb055bb3d2a78215cfec595e276d477655214c5",
+  "backup": {
+    "bundle": "preset-default.ggpx",
+    "hash": "5546664d966ca3fe45a3265f4bb055bb3d2a78215cfec595e276d477655214c5"
+  }
 }
