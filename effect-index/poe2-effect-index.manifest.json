@@ -1,20 +1,20 @@
 {
-  "format": "poe2radar-effect-index",
+  "format": "poe2-overlay-effect-index",
   "format_version": 2,
   "game": "poe2",
   "game_patch": "0.5.5b",
-  "scanned_at": "2026-09-30 11:09",
-  "packed_at": "2026-09-30 11:34",
-  "scan_folder": "_effect_links_scan_v2",
+  "scanned_at": "2026-09-30 13:42",
+  "packed_at": "2026-09-30 13:43",
+  "scan_folder": "20260930-134132",
   "counts": {
-    "paths": 266294,
-    "names_only": 70757,
-    "extracted": 195537,
-    "links": 1664728,
+    "paths": 267199,
+    "names_only": 70784,
+    "extracted": 196415,
+    "links": 1673563,
     "keys": 1350
   },
   "file": "poe2-effect-index.json.gz",
-  "bytes": 7286688,
-  "raw_bytes": 61374334,
-  "sha256": "5555a7318d639365bfd00977271ee0ba7ea076f53624f1373490c1b988cb0ceb"
+  "bytes": 7333875,
+  "raw_bytes": 61666674,
+  "sha256": "d5c2951a36ea6ba610fecc43beb6a7f58ed303b8ff870027f5f65e7a148ddfbe"
 }
