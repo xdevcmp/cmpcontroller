@@ -1,0 +1,5 @@
+# This repo has core.autocrlf=true. Binary payloads must NEVER be line-ending
+# converted: a single changed byte breaks the sha256 that clients verify against
+# (effect-index/poe2-effect-index.manifest.json) and corrupts the encrypted bundle.
+*.gz    binary
+*.ggpx  binary
