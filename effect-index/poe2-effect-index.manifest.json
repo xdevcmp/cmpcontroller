@@ -3,19 +3,19 @@
   "format_version": 2,
   "game": "poe2",
   "game_patch": "0.5.5f",
-  "scanned_at": "2026-11-06 10:18",
-  "packed_at": "2026-11-06 10:20",
-  "scan_folder": "20261106-101706",
+  "scanned_at": "2026-11-10 01:52",
+  "packed_at": "2026-11-10 01:53",
+  "scan_folder": "20261110-015027",
   "counts": {
-    "paths": 270486,
-    "names_only": 70992,
-    "extracted": 199494,
-    "links": 1703694,
-    "keys": 1374,
-    "sounds": 12781
+    "paths": 270976,
+    "names_only": 71040,
+    "extracted": 199936,
+    "links": 1704411,
+    "keys": 1385,
+    "sounds": 12788
   },
   "file": "poe2-effect-index.json.gz",
-  "bytes": 7471210,
-  "raw_bytes": 62790310,
-  "sha256": "13082cca644aca9fc509389af84bc1e0c56ac763dc24439dabddc12dd9d70fcc"
+  "bytes": 7489395,
+  "raw_bytes": 62833812,
+  "sha256": "72c57ec9b3b354766a1779275c34f8d285e9d368164578a046454ed7b1bf3568"
 }
