@@ -2,20 +2,20 @@
   "format": "poe2-overlay-effect-index",
   "format_version": 2,
   "game": "poe1",
-  "game_patch": "3.29.3c",
-  "scanned_at": "2026-11-10 01:51",
-  "packed_at": "2026-11-10 01:53",
-  "scan_folder": "20261110-015019",
+  "game_patch": "3.30.0",
+  "scanned_at": "2026-11-13 22:47",
+  "packed_at": "2026-11-13 22:49",
+  "scan_folder": "20261113-224615",
   "counts": {
-    "paths": 219713,
-    "names_only": 83968,
-    "extracted": 135745,
-    "links": 901262,
-    "keys": 1432,
-    "sounds": 12504
+    "paths": 226296,
+    "names_only": 84345,
+    "extracted": 141951,
+    "links": 968366,
+    "keys": 1454,
+    "sounds": 12766
   },
   "file": "poe1-effect-index.json.gz",
-  "bytes": 4637688,
-  "raw_bytes": 39129560,
-  "sha256": "a84981275b91ed8dc6c0b695e6500ee203f4fb90e00c76e8671e76791482e731"
+  "bytes": 4886197,
+  "raw_bytes": 41333452,
+  "sha256": "ee6a0b45d2cd4e6b553456d1d184753ced6ab90bd5f0b76a40ece1fb684e0544"
 }
